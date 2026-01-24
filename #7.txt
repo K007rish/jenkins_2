@@ -1,4 +1,4 @@
-Started by an SCM change
+Started by GitHub push by K007rish
 Running as SYSTEM
 Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\jenkins_tas2
 The recommended git tool is: NONE
@@ -12,22 +12,19 @@ Fetching upstream changes from https://github.com/K007rish/jenkins_2.git
 using GIT_ASKPASS to set credentials git credentials
  > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/K007rish/jenkins_2.git +refs/heads/*:refs/remotes/origin/* # timeout=10
  > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
-Checking out Revision 7418447f99f9d5f63e473b89e622197b47a46c97 (refs/remotes/origin/main)
+Checking out Revision 71411a1736b172a6991c4f3ac4b14b151b88529c (refs/remotes/origin/main)
  > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
- > C:\Program Files\Git\cmd\git.exe checkout -f 7418447f99f9d5f63e473b89e622197b47a46c97 # timeout=10
-Commit message: "force failure"
- > C:\Program Files\Git\cmd\git.exe rev-list --no-walk da8a5fcb2400b7ff6c98ef3021082cc3c3980515 # timeout=10
-[jenkins_tas2] $ "C:\Program Files\Git\bin\sh.exe" -xe C:\WINDOWS\TEMP\jenkins3100381697174921682.sh
+ > C:\Program Files\Git\cmd\git.exe checkout -f 71411a1736b172a6991c4f3ac4b14b151b88529c # timeout=10
+Commit message: "updates"
+ > C:\Program Files\Git\cmd\git.exe rev-list --no-walk 7418447f99f9d5f63e473b89e622197b47a46c97 # timeout=10
+[jenkins_tas2] $ "C:\Program Files\Git\bin\sh.exe" -xe C:\WINDOWS\TEMP\jenkins15135077377824511772.sh
 + sh build.sh
 Build started...
-Sat Jan 24 08:28:09 IST 2026
+Sat Jan 24 08:47:26 IST 2026
 Hello from Jenkins CI pipeline!
 Build completed successfully.
- build completed.
-help neeee i am under the water
-[jenkins_tas2] $ "C:\Program Files\Git\bin\sh.exe" -xe C:\WINDOWS\TEMP\jenkins18125409533968121641.sh
-+ exit 1
-Build step 'Execute shell' marked build as failure
+  build completed.
+help neeee i am under the water its  soooo deepppp
 Not sending mail to unregistered user krishsutariya98@gmail.com
 Sending e-mails to: krishsutariya0406@gmail.com
-Finished: FAILURE
+Finished: SUCCESS
